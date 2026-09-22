@@ -1,0 +1,41 @@
+{
+  "name": "api2img",
+  "version": "0.1.12",
+  "description": "Install the api2img skill for relay-API-based image generation and editing across Codex and other agents.",
+  "keywords": [
+    "api2img",
+    "image-generation",
+    "image-editing",
+    "ai-agent",
+    "agent-skill",
+    "codex",
+    "claude-code",
+    "openclaw",
+    "hermes",
+    "relay-api",
+    "openai-compatible"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrVoler/api2img-skill.git"
+  },
+  "homepage": "https://github.com/MrVoler/api2img-skill#readme",
+  "bugs": {
+    "url": "https://github.com/MrVoler/api2img-skill/issues"
+  },
+  "bin": {
+    "api2img": "bin/install.js"
+  },
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "README.en.md",
+    "assets",
+    "agents",
+    "adapters",
+    "core",
+    "references",
+    "bin"
+  ],
+  "license": "MIT"
+}
